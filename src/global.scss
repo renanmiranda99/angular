@@ -1,3 +1,34 @@
+.light-theme{
+    --text-color: #171311;
+    --input-color: #808080;
+    --bg-color: #FFFFFF;
+    --elements-color: #FFFFFF;
+}
+
+.dark-theme{
+    --text-color: #FFFFFF;
+    --input-color: #858585;
+    --bg-color: #1D272E;
+    --elements-color: #222E37;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
+a,
+a:active,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+
 /*
  * App Global CSS
  * ----------------------------------------------------------------------------
@@ -9,21 +40,21 @@
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
 
-/* Core CSS required for Ionic components to work properly */
-@import "@ionic/angular/css/core.css";
+/* Core CSS required for Ionic components to work properly 
+@import "@ionic/angular/css/core.css";*/
 
-/* Basic CSS for apps built with Ionic */
+/* Basic CSS for apps built with Ionic 
 @import "@ionic/angular/css/normalize.css";
 @import "@ionic/angular/css/structure.css";
 @import "@ionic/angular/css/typography.css";
-@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/display.css";*/
 
-/* Optional CSS utils that can be commented out */
+/* Optional CSS utils that can be commented out
 @import "@ionic/angular/css/padding.css";
 @import "@ionic/angular/css/float-elements.css";
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
-@import "@ionic/angular/css/flex-utils.css";
+@import "@ionic/angular/css/flex-utils.css"; */
 
 /**
  * Ionic Dark Mode
@@ -33,5 +64,5 @@
  */
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
-/* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import "@ionic/angular/css/palettes/dark.system.css";
+/* @import "@ionic/angular/css/palettes/dark.class.css"; 
+@import "@ionic/angular/css/palettes/dark.system.css";*/
